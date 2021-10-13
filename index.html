@@ -1,0 +1,302 @@
+<html>
+<head>
+  <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="Background pink background.png">
+<center>
+  <h3 class="heading btn btn-color">Case Study Between Moblienet and Google Lens</h3>
+    <hr>
+    <center>
+    <ol>
+      <div class="test_image_and_result col-xs-12 btn bg-btn-color1">
+         <li class="col-sm-3 col-xs-12">
+           <b>Test Image - </b>
+           <img src="Bindi.jpeg" class="img-responsive" style="height: 450px; width: 350px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+         </li>
+
+         <h5 class="col-sm-3 col-xs-12">
+           Output on <b>GOOGLE LENS</b>
+            <span></span>
+         </h5>
+
+         <h5 class="col-sm-3 col-xs-12">
+          Output on <b>Moblienet Model</b>
+           <span></span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - </h4>
+            <hr>
+            <h4></h4>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="test_image_and_result col-xs-12 btn bg-btn-color2">
+        <li class="col-sm-3 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Bottle.jpeg" class="img-responsive" style="height: 430px; margin-top: 5px; width: 250px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+        </li>
+
+        <h5 class="col-sm-3 col-xs-12">
+          Output on <b>GOOGLE LENS</b>
+           <span></span>
+        </h5>
+
+        <h5 class="col-sm-3 col-xs-12">
+         Output on <b>Moblienet Model</b>
+          <span></span>
+       </h5>
+
+       <div class="mini_result" class="col-xs-12">
+           <h4>Result - </h4>
+           <hr>
+           <h4></h4>
+       </div>
+
+     </div>
+
+     <br>
+     <br>
+
+     <div class="test_image_and_result col-xs-12 btn bg-btn-color3">
+      <li class="col-sm-3 col-xs-12">
+        <b>Test Image - </b>
+        <img src="Earphones.jpeg" class="img-responsive" style="height: 420px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+      </li>
+
+      <h5 class="col-sm-3 col-xs-12">
+        Output on <b>GOOGLE LENS</b>
+         <span></span>
+      </h5>
+
+      <h5 class="col-sm-3 col-xs-12">
+       Output on <b>Moblienet Model</b>
+        <span></span>
+     </h5>
+
+     <div class="mini_result" class="col-xs-12">
+         <h4>Result - </h4>
+         <hr>
+         <h4></h4>
+     </div>
+
+   </div>
+
+   <br>
+   <br>
+
+   <div class="test_image_and_result col-xs-12 btn bg-btn-color4">
+    <li class="col-sm-3 col-xs-12">
+      <b>Test Image - </b>
+      <img src="Hanker chief.jpeg" class="img-responsive" style="height: 450px; width: 350px; border-radius: 10px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+    </li>
+
+    <h5 class="col-sm-3 col-xs-12">
+      Output on <b>GOOGLE LENS</b>
+       <span></span>
+    </h5>
+
+    <h5 class="col-sm-3 col-xs-12">
+     Output on <b>Moblienet Model</b>
+      <span></span>
+   </h5>
+
+   <div class="mini_result" class="col-xs-12">
+       <h4>Result - </h4>
+       <hr>
+       <h4></h4>
+   </div>
+
+ </div>
+
+ <br>
+ <br>
+
+ <div class="test_image_and_result col-xs-12 btn bg-btn-color5">
+  <li class="col-sm-3 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Kindle.jpeg" class="img-responsive" style="height: 420px; width: 350px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+  </li>
+
+  <h5 class="col-sm-3 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+     <span></span>
+  </h5>
+
+  <h5 class="col-sm-3 col-xs-12">
+   Output on <b>Moblienet Model</b>
+    <span></span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+     <h4>Result - </h4>
+     <hr>
+     <h4></h4>
+ </div>
+
+</div>
+
+<br>
+<br>
+
+<div class="test_image_and_result col-xs-12 btn bg-btn-color6">
+  <li class="col-sm-3 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Pillow.jpeg" class="img-responsive" style="height: 420px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+  </li>
+
+  <h5 class="col-sm-3 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+     <span></span>
+  </h5>
+
+  <h5 class="col-sm-3 col-xs-12">
+   Output on <b>Moblienet Model</b>
+    <span></span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+     <h4>Result - </h4>
+     <hr>
+     <h4></h4>
+ </div>
+
+</div>
+
+<br>
+<br>
+
+<div class="test_image_and_result col-xs-12 btn bg-btn-color7">
+  <li class="col-sm-3 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Pouch.jpeg" class="img-responsive" style="height: 420px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+  </li>
+
+  <h5 class="col-sm-3 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+     <span></span>
+  </h5>
+
+  <h5 class="col-sm-3 col-xs-12">
+   Output on <b>Moblienet Model</b>
+    <span></span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+     <h4>Result - </h4>
+     <hr>
+     <h4></h4>
+ </div>
+
+</div>
+
+<br>
+<br>
+
+<div class="test_image_and_result col-xs-12 btn bg-btn-color8">
+  <li class="col-sm-3 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Purse.jpeg" class="img-responsive" style="height: 420px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+  </li>
+
+  <h5 class="col-sm-3 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+     <span></span>
+  </h5>
+
+  <h5 class="col-sm-3 col-xs-12">
+   Output on <b>Moblienet Model</b>
+    <span></span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+     <h4>Result - </h4>
+     <hr>
+     <h4></h4>
+ </div>
+
+</div>
+
+<br>
+<br>
+
+<div class="test_image_and_result col-xs-12 btn bg-btn-color9">
+  <li class="col-sm-3 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Santa.jpeg" class="img-responsive" style="height: 420px; width: 350px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+  </li>
+
+  <h5 class="col-sm-3 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+     <span></span>
+  </h5>
+
+  <h5 class="col-sm-3 col-xs-12">
+   Output on <b>Moblienet Model</b>
+    <span></span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+     <h4>Result - </h4>
+     <hr>
+     <h4></h4>
+ </div>
+
+</div>
+
+<br>
+<br>
+
+<div class="test_image_and_result col-xs-12 btn bg-btn-color10">
+  <li class="col-sm-3 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Watch.jpeg" class="img-responsive" style="height: 420px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 3px rgb(175, 67, 121);">
+  </li>
+
+  <h5 class="col-sm-3 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+     <span></span>
+  </h5>
+
+  <h5 class="col-sm-3 col-xs-12">
+   Output on <b>Moblienet Model</b>
+    <span></span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+     <h4>Result - </h4>
+     <hr>
+     <h4></h4>
+ </div>
+
+</div>
+
+<br>
+<br>
+    </ol>
+
+  </center>
+</center>
+
+<div class="copy_right_footer">
+  Developed by: Sanvi Varshney
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,35 @@
+  
+  .copy_right_footer
+  {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(170, 104, 207);
+    color: rgb(248, 165, 216);
+    width: 100%;
+    line-height: 3;
+    font-size: 18px;
+  }
+
+
+  body
+  {
+    font-family: 'Gluten', cursive;
+    background-image: fill;
+  }
+
+ .bg-btn-color1, .bg-btn-color2, .bg-btn-color3, .bg-btn-color4, .bg-btn-color5, .bg-btn-color6, .bg-btn-color7, .bg-btn-color8, .bg-btn-color9, .bg-btn-color10
+ {
+   background-color: rgb(231, 101, 151);
+   height: 500px;
+   margin-bottom: 30px;
+   border-radius: 20px;
+ }
+
+
+ .btn-color
+ {
+   background-color: pink;
+   font-size: 23;
+ }
+ 
